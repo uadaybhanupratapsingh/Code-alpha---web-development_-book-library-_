@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Book Library</h1>
+        <input type="text" id="searchInput" placeholder="Search for books...">
+    </header>
+
+    <main>
+        <section id="bookList">
+            <!-- Book entries will be dynamically inserted here -->
+        </section>
+
+        <aside>
+            <h2>Categories</h2>
+            <ul id="categoryList">
+                <li data-category="all">All</li>
+                <!-- Categories will be dynamically inserted here -->
+            </ul>
+
+            <h2>Borrowing History</h2>
+            <ul id="borrowingHistoryList">
+                <!-- Borrowing history entries will be dynamically inserted here -->
+            </ul>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
